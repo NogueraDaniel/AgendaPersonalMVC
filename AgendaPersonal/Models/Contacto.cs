@@ -5,26 +5,25 @@ namespace AgendaPersonal.Models
 {
     public class Contacto
     {
-       [Key]
-       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idContacto;
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int idContacto { get; set; }
 
-  
-        public string Nombre;
 
-   
-        public string Apellido;
+        public string Nombre { get; set; }
 
-        [Display(Name = "Correo/s electronico/s")]
-        public string[] emails;
 
-        [Display(Name = "Telefono/s")]
-        public int[] telefonos;
+        public string Apellido { get; set; }
 
-        public string Direccion;
+
+        public string Email { get; set; }
+
+        public int telefono { get; set; }
+
+        public string Direccion { get; set; }
 
         [EnumDataType(typeof(Tipo))]
-        public Tipo tipoContacto;
+        public Tipo tipoContacto { get; set; }
 
     }
 }
