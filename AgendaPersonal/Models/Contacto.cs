@@ -18,11 +18,12 @@ namespace AgendaPersonal.Models
 
         public string Email { get; set; }
 
-        public int telefono { get; set; }
+        public int Telefono { get; set; }
 
         public string Direccion { get; set; }
 
         [EnumDataType(typeof(Tipo))]
+        [Display(Name = "Tipo de contacto")]
         public Tipo tipoContacto { get; set; }
 
     }
