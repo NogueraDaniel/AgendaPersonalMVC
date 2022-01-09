@@ -3,7 +3,7 @@
 Utilizamos Entity Framework que es un ORM (object relational mapping) para
 automatizar las operaciones CRUD (Create, Read, Update, Delete) que realiza la aplicación sobre una base de datos.
 
-El patron MVC (Model View Controller = Modelo VistaControlador), es un estilo de arquitectura de software que separa
+El patron MVC (Model View Controller = Modelo Vista Controlador), es un estilo de arquitectura de software que separa
 los datos de una aplicación, la interfaz de usuario, y la lógica de control en tres componentes distintos.
 Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los años
 en todo tipo de aplicaciones, y sobre multitud de lenguajes y plataformas de desarrollo.
